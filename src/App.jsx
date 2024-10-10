@@ -1,5 +1,6 @@
 
 import './App.css'
+import Footer from './Components/core/Footer'
 import Navbar from './Components/core/Navbar'
 import Search from './Components/core/Search'
 import Product from './Components/data/Product'
@@ -12,6 +13,7 @@ function App() {
     <Navbar/>
     <Search/>
     <Product/>
+    <Footer/>
     </>
   )
 }

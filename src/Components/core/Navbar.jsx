@@ -31,7 +31,9 @@ const Navbar = () => {
       <div className='text-3xl mb-4 md:mb-0' onClick={showData}>
         <FaHome />
       </div>
-      <h1 className='text-xl md:text-2xl font-bold mb-4 md:mb-0'>Search Property to rent</h1>
+      <h1 className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl font-extrabold bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 text-transparent bg-clip-text drop-shadow-lg mb-2 sm:mb-3 md:mb-4 lg:mb-6 text-center md:text-left">
+  HomeNest
+</h1>
       <div className='flex gap-2'>
         <input onChange={(e)=> setSearch(e.target.value)} type="text" placeholder='search' className='border-2 p-2 rounded-md' value={search} />
         <button onClick={handleSearch} className='bg-white text-black border-2 border-black p-2 rounded-md transition-colors duration-300 hover:bg-black hover:text-white'>Search</button>
